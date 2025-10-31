@@ -87,3 +87,79 @@
     footer li {
       margin: 5px 0;
     }
+/* ブログリスト */
+ul.blog-list {
+  list-style: none;
+  padding-left: 0;
+}
+ul.blog-list li {
+  margin-bottom: 8px;
+}
+ul.blog-list li a {
+  color: #d35400;
+  text-decoration: none;
+}
+ul.blog-list li a:hover {
+  color: #ff7f50;
+}
+/* ブログ日時 */
+.blog-date {
+  font-size: 0.9em;
+  color: #1a0080;
+  margin-bottom: 10px;
+}
+/* 更新履歴 */
+.update-log h4 {
+  margin-top: 20px;
+  font-size: 1.1em;
+  color: #e65100;
+}
+.update-log ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 8px;
+}
+.update-log li {
+  font-size: 0.9em;
+  color: #333;
+  margin-bottom: 4px;
+}
+.blog-post {
+  margin-bottom: 40px; /* 下の余白を広げる（お好みで20〜60pxくらい） */
+}
+    /* 記事内の強調スタイル */
+    .blog-post strong {
+      color: #d35400;
+      font-weight: bold;
+    }
+    /* コード表示用 */
+    .blog-post code {
+      background-color: #f8f8f8;
+      padding: 2px 5px;
+      border-radius: 3px;
+      font-family: monospace;
+      color: #c00;
+    }
+    /* 引用ブロック */
+    .blog-post blockquote {
+      background-color: #fff8f0;
+      border-left: 4px solid #d35400;
+      padding: 10px 15px;
+      margin: 15px 0;
+      font-style: italic;
+      color: #555;
+    }
+    /* 見出し調整 */
+    .blog-post h3 {
+      color: #994618;
+      border-bottom: 1px solid #e65100;
+      padding-bottom: 5px;
+      margin-top: 25px;
+    }
+    /* 箇条書きスタイル */
+    .blog-post ul {
+      margin-left: 20px;
+    }
+    .blog-post li {
+      margin-bottom: 8px;
+    }
